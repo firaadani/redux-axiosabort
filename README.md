@@ -1,4 +1,4 @@
-WHAT IS REDUX?
+<p><strong>WHAT IS REDUX?</strong></p>
 Redux is a popular state management library for JavaScript applications, most commonly used with React. It provides a predictable and centralized way to manage application state, making it easier to develop and maintain large-scale applications.
 
 The basic idea behind Redux is to store the entire state of an application in a single object, known as the store. The store is updated via actions, which are plain JavaScript objects that describe what happened in the application. When an action is dispatched, it triggers a reducer function, which updates the state of the store based on the action.
@@ -12,7 +12,7 @@ The key benefits of using Redux are:
 
 Overall, Redux provides a powerful and flexible way to manage application state in JavaScript applications, making it a popular choice for developers building large-scale applications.
 
-WHY USE REDUX AND NOT REACT CONTEXT?
+<p><strong>WHY USE REDUX AND NOT REACT CONTEXT?</strong></p>
 Both Redux and React Context are used for managing state in React applications. However, there are some key differences between the two, which can make one more suitable for a particular use case than the other.
 
 Redux is a state management library that provides a centralized way to manage state in a predictable and scalable way. It is useful for complex applications with large amounts of state that need to be shared between different components. Redux uses a single store to hold the state of the entire application, which can be accessed and updated using actions and reducers.
@@ -28,7 +28,7 @@ Here are some reasons why you might choose to use Redux over React Context:
 
 Overall, both Redux and React Context have their strengths and weaknesses, and the choice between them will depend on the specific needs of your application. However, if you have a large, complex application with a lot of shared state, Redux's centralized approach can make it easier to manage and debug your state updates.
 
-THE DOWNSIDES OF USING REDUX
+<p><strong>THE DOWNSIDES OF USING REDUX</strong></p>
 While Redux has many benefits, there are also some potential downsides to using it in your application:
 
 - Complexity: Redux introduces a significant amount of complexity to your application, as it adds an additional layer of abstraction and requires developers to understand concepts such as actions, reducers, and the Redux store.
@@ -40,7 +40,7 @@ While Redux has many benefits, there are also some potential downsides to using 
 
 Overall, while Redux is a powerful and widely-used library for managing application state in JavaScript applications, it's important to carefully consider whether it's the right fit for your specific application and use case, and to be aware of the potential downsides and tradeoffs involved in using it.
 
-REDUX TOOLKIT
+<p><strong>REDUX TOOLKIT</strong></p>
 Redux Toolkit is a set of opinionated utilities and tools for building Redux applications, which simplifies the development of Redux applications by abstracting away much of the boilerplate code and reducing the number of concepts that developers need to learn. It includes several libraries and utilities that make it easier to write and maintain Redux code.
 
 When we say that a tool or library is "opinionated," it means that it has a specific philosophy or approach to solving a problem. In the case of Redux Toolkit, it has a specific set of opinions about how to write Redux code that makes it easier and more efficient to use.
@@ -62,7 +62,7 @@ Modern JavaScript Features: Redux Toolkit takes advantage of modern JavaScript f
 
 Overall, Redux Toolkit provides a more streamlined and modern way of building Redux applications, reducing the amount of boilerplate code and complexity that developers need to deal with.
 
-AXIOS ABORTCONTROLLER
+<p><strong>AXIOS ABORTCONTROLLER</strong></p>
 Axios is a popular JavaScript library that allows you to make HTTP requests from your application. The AbortController is a built-in feature of modern web browsers that allows you to cancel or abort an HTTP request that is still in progress. Axios provides support for the AbortController API, allowing you to cancel a request that is currently in progress using the cancel() method of the AbortController.
 
 We're also setting a timeout of 5 seconds using setTimeout() to cancel the request after 5 seconds. When the abort() method is called on the AbortController, Axios will catch the AbortError and call the catch block. If the error is an axios.Cancel, it means that the request was cancelled by the AbortController, so we can handle it gracefully.
